@@ -6,8 +6,8 @@ function ColorPicker({ selectColorHandler }) {
   return (
     <section className={styles.ColorPicker }>
       <button className={styles.red} onClick={selectColorHandler.bind(null, 'red')}>Red</button>
-      <button className={styles.yellow} onClick={selectColorHandler.bind('yellow')}>Yellow</button>
-      <button className={styles.blue} onClick={selectColorHandler.bind('blue')}>Blue</button>
+      <button className={styles.yellow} onClick={selectColorHandler.bind(null, 'yellow')}>Yellow</button>
+      <button className={styles.blue} onClick={selectColorHandler.bind(null, 'blue')}>Blue</button>
     </section>
   );
 }
