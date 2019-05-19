@@ -1,8 +1,9 @@
 import React from 'react';
 // import PropTypes from 'prop-types';
+import styles from './Box.css';
 
 function Box() {
-  return <h2>BoxBuilder</h2>;
+  return <div className={styles.Box}>BoxBuilder</div>;
 }
 
 // Box.propTypes = {

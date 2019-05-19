@@ -3,6 +3,7 @@ import ColorPicker from './ColorPicker';
 import ColorDisplay from './ColorDisplay';
 import Box from './Box';
 
+
 export default class App extends PureComponent {
   state = {
     color: ''
