@@ -17,3 +17,4 @@ ColorPicker.propTypes = {
 };
 
 export default ColorPicker;
+
