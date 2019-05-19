@@ -1,6 +1,7 @@
 import React, { PureComponent } from 'react';
 import ColorPicker from './ColorPicker';
 import ColorDisplay from './ColorDisplay';
+import Box from './Box';
 
 export default class App extends PureComponent {
   state = {
@@ -20,6 +21,7 @@ export default class App extends PureComponent {
       <>
         <ColorPicker selectColorHandler={this.selectColor} />
         <ColorDisplay color={color} />
+        <Box />
       </>
     );
     
